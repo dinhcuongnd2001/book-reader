@@ -1,0 +1,17 @@
+.custom-modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100vw;
+    height: 100vh;
+
+    &.fade {
+        opacity: 0;
+    }
+
+    &.show {
+        opacity: 0.5;
+        background-color: #000;
+    }
+}
